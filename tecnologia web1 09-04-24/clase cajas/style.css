@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.logo img{
+    height: 70px;
+}
+.barra_nav{
+    display: flex;
+    justify-content: space-around;
+    gap:25px;
+    background-color: aquamarine;
+    height: 30px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(nieve.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+
+}
+.nav_img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    background-size: cover;
+    background-color: rgb(67, 159, 172);
+    gap: 55px;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
